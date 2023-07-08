@@ -15,7 +15,7 @@ This code adds an "Create File" button to code containers on a webpage. When the
 5. It prompts the user to save the code as a file using the `showSaveFilePicker` API.
 6. It writes the code to the selected file.
 
-The code also includes a `MutationObserver` that listens for new code containers added to the page and automatically adds the "Update" button to them. Additionally, there is a periodic check every 3 seconds to ensure that the button is added to all existing code containers.
+The code also includes a `MutationObserver` that listens for new code containers added to the page and automatically adds the "Create file" button to them. Additionally, there is a periodic check every 3 seconds to ensure that the button is added to all existing code containers.
 
 ## Usage
 
