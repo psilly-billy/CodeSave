@@ -1,0 +1,22 @@
+{
+  "background": {
+     "service_worker": "background.js"
+  },
+  "content_scripts": [ {
+     "js": [ "content.js" ],
+     "matches": [ "<all_urls>" ]
+  } ],
+  "description": "Adds a 'Create File' button to code containers on web pages, allowing you to download the code as a file.",
+  "icons": {
+     "128": "Icons/icon128.png",
+     "16": "Icons/icon16.png",
+    
+     "48": "Icons/icon48.png"
+  },
+  
+  "manifest_version": 3,
+  "name": "ChatGPT Code Downloader",
+  "permissions": [ "clipboardRead", "downloads" ],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "1.0.0"
+}
